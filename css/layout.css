@@ -43,7 +43,7 @@ footer {
 
 /* responsive design */
 .topnav {
-  font-family: "Architects Daughter", cursive;
+  font-family:'Architects Daughter', cursive; /* before:  font-family: "Architects Daughter", cursive; */
   overflow: hidden;
   background-color: #b2d732;
   width: 20vw;
@@ -73,7 +73,7 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1070px) { 
   .topnav {
     width: 100%;
   }

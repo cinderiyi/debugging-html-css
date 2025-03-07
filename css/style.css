@@ -15,6 +15,7 @@ main {
 header {
 	background-color: #2E6C85;
 	width: 100%;
+	height: 15vw; /* added height var */
 }
 
 header img {
@@ -30,17 +31,17 @@ header img {
 footer {
 	text-align: center;
 	background-color: #092834;
-	color: #B2;
+	color: #B2D732; /* before: color: #B2;*/
 	clear: both;
 }
 
 footer h2 {
-	color: #B2D732
+	color: #B2D732;  /* before: color: #B2D732 */
 }
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 5 vw;
+	font-size: 5vw; /* before: font-size: 5 vw;*/
 	color: #B2D732;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
@@ -48,22 +49,24 @@ h1 {
 	margin: 0px;
 }
 
-h2,
+/* before: h2,
 h4,
-h5 {
+h5 */
+h2 { 
 	color: #C04402;
 	font-family: 'Architects Daughter', cursive;
 	margin-top: 1em;
 }
 
-h3 {
+
+h3, h4, h5 {  /* before: h3 { */
 	color: #2E6C85;
 	margin-top: 1em;
 }
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.35me;
+	line-height: 1.35em;  /* before: line-height: 1.35me; */
 	margin-top: 1em;
 }
 
@@ -79,10 +82,6 @@ ol {
 
 .accent2 {
 	color: #B2D732;
-}
-
-.error {
-	color: #FE27122;
 }
 
 a {
